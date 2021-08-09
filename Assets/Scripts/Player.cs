@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        FallingPlayer();
+        Jump();
     }
 
     void Update()
@@ -68,13 +68,18 @@ public class Player : MonoBehaviour
     {
         if (stateJump)
         {
-            animPlayer.SetBool("Jump", true);
-            rbPlayer.AddForce(new Vector3(0, forceJump, 0), ForceMode.Impulse);
-            animPlayer.SetBool("Floor", true);
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                rbPlayer.AddForce(new Vector3(0, forceJump, 0), ForceMode.Impulse);
+
+            }
+            //animPlayer.SetBool("Jump", true);
+            //animPlayer.SetBool("Floor", true);
         }
         else
         {
-            FallingPlayer();
+            //FallingPlayer();
         }
     }
 
