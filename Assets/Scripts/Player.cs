@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        FallingPlayer();
+        //FallingPlayer();
     }
 
     void Update()
