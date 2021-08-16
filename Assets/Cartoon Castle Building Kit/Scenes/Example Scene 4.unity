@@ -241,6 +241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1026728341764066, guid: f0624e0ee72cbb64198b50158b82211f, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4249441853598242, guid: f0624e0ee72cbb64198b50158b82211f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -885,6 +889,10 @@ PrefabInstance:
     - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_Name
       value: Castle Cube 1 Bright (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
@@ -1671,6 +1679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Cube 1 Bright (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1733,6 +1745,10 @@ PrefabInstance:
     - target: {fileID: 1962980679587208, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
       propertyPath: m_Name
       value: Castle Block 1x4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962980679587208, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4146840429895806, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
       propertyPath: m_RootOrder
@@ -1916,6 +1932,10 @@ PrefabInstance:
     - target: {fileID: 1337715970100834, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
       propertyPath: m_Name
       value: Castle Block 1x3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337715970100834, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4327775501237076, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
       propertyPath: m_RootOrder
@@ -2212,6 +2232,10 @@ PrefabInstance:
     - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_Name
       value: Castle Cube 1 Bright (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
@@ -2744,7 +2768,7 @@ GameObject:
   - component: {fileID: 672288153}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: jumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2891,6 +2915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Cube 1 Bright (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3026,6 +3054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Block 1x3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1337715970100834, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4327775501237076, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3081,6 +3113,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 736295703}
     m_Modifications:
+    - target: {fileID: 1621057475449344, guid: e795434f66a5be8478020f6565b0393a, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4445949268046196, guid: e795434f66a5be8478020f6565b0393a, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -3430,6 +3466,10 @@ PrefabInstance:
     - target: {fileID: 1358767312763242, guid: 56cc1c6bff89a6e48929a0f0b3172411, type: 3}
       propertyPath: m_Name
       value: Castle Cube 4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358767312763242, guid: 56cc1c6bff89a6e48929a0f0b3172411, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4678819293790290, guid: 56cc1c6bff89a6e48929a0f0b3172411, type: 3}
       propertyPath: m_RootOrder
@@ -3823,6 +3863,10 @@ PrefabInstance:
     - target: {fileID: 1337715970100834, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
       propertyPath: m_Name
       value: Castle Block 1x3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337715970100834, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4327775501237076, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
       propertyPath: m_RootOrder
@@ -4458,8 +4502,8 @@ MonoBehaviour:
   rbbb: {fileID: 1059727780}
   nbbb: {fileID: 1667120768}
   nbb: {fileID: 1667120764}
-  sb: {fileID: 0}
-  fb: {fileID: 0}
+  sb: {fileID: 1441767593}
+  fb: {fileID: -4094032968387705564, guid: 830e63da1f2f2104cb2dc59a1cb05831, type: 3}
   MavWered: {fileID: 0}
   begoneMat: {fileID: 0}
   CoolSwitchInd: {fileID: 0}
@@ -4697,6 +4741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Cube 1 Bright (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -4819,6 +4867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1026728341764066, guid: f0624e0ee72cbb64198b50158b82211f, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4249441853598242, guid: f0624e0ee72cbb64198b50158b82211f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4940,6 +4992,10 @@ PrefabInstance:
     - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_Name
       value: Castle Cube 1 Bright (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
@@ -5066,6 +5122,10 @@ PrefabInstance:
     - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_Name
       value: Castle Cube 1 Bright (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
@@ -5196,6 +5256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Block 1x4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1962980679587208, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4146840429895806, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5313,6 +5377,10 @@ PrefabInstance:
     - target: {fileID: 1735369293756732, guid: d4895ace8ebf3e042bb1866f3a136061, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735369293756732, guid: d4895ace8ebf3e042bb1866f3a136061, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4539040782866476, guid: d4895ace8ebf3e042bb1866f3a136061, type: 3}
       propertyPath: m_RootOrder
@@ -5501,6 +5569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Cube 4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1358767312763242, guid: 56cc1c6bff89a6e48929a0f0b3172411, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4678819293790290, guid: 56cc1c6bff89a6e48929a0f0b3172411, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5567,7 +5639,7 @@ GameObject:
   - component: {fileID: 1235763897}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: jumpable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5794,6 +5866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Block 1x3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1337715970100834, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4327775501237076, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5849,6 +5925,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 415466385}
     m_Modifications:
+    - target: {fileID: 1621057475449344, guid: e795434f66a5be8478020f6565b0393a, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4445949268046196, guid: e795434f66a5be8478020f6565b0393a, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -5915,6 +5995,10 @@ PrefabInstance:
     - target: {fileID: 1621057475449344, guid: e795434f66a5be8478020f6565b0393a, type: 3}
       propertyPath: m_Name
       value: Castle Cube 1 Dark (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621057475449344, guid: e795434f66a5be8478020f6565b0393a, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4445949268046196, guid: e795434f66a5be8478020f6565b0393a, type: 3}
       propertyPath: m_RootOrder
@@ -6223,6 +6307,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 415466385}
     m_Modifications:
+    - target: {fileID: 1026728341764066, guid: f0624e0ee72cbb64198b50158b82211f, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4249441853598242, guid: f0624e0ee72cbb64198b50158b82211f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6282,6 +6370,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 415466385}
     m_Modifications:
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -6349,6 +6441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Cube 1 Bright (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -6401,6 +6497,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1432591164}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1441767585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2045559263818397367, guid: d8fca16cc65a5c8449a3c82363f43258,
+    type: 3}
+  m_PrefabInstance: {fileID: 2045559265095587350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1441767593
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441767585}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1488852789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6455,6 +6573,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 804991608}
     m_Modifications:
+    - target: {fileID: 1358767312763242, guid: 56cc1c6bff89a6e48929a0f0b3172411, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4678819293790290, guid: 56cc1c6bff89a6e48929a0f0b3172411, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6514,6 +6636,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 722365879}
     m_Modifications:
+    - target: {fileID: 1337715970100834, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4327775501237076, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6699,6 +6825,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 736295703}
     m_Modifications:
+    - target: {fileID: 1026728341764066, guid: f0624e0ee72cbb64198b50158b82211f, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4249441853598242, guid: f0624e0ee72cbb64198b50158b82211f, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -6762,6 +6892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Block 1x4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1962980679587208, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4146840429895806, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -6820,6 +6954,10 @@ PrefabInstance:
     - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_Name
       value: Castle Cube 1 Bright (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
@@ -6880,6 +7018,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 945558854}
     m_Modifications:
+    - target: {fileID: 1337715970100834, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4327775501237076, guid: fbafc2fd3b91e6847bf2c9297dab99fc, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6998,6 +7140,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 736295703}
     m_Modifications:
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -7240,6 +7386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Cube 1 Bright (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -7299,6 +7449,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 722365879}
     m_Modifications:
+    - target: {fileID: 1962980679587208, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4146840429895806, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7612,6 +7766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Cube 1 Bright (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -7810,6 +7968,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 945558854}
     m_Modifications:
+    - target: {fileID: 1962980679587208, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4146840429895806, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7864,6 +8026,10 @@ PrefabInstance:
     - target: {fileID: 1962980679587208, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
       propertyPath: m_Name
       value: Castle Block 1x4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962980679587208, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4146840429895806, guid: e48df4623a44f7c47a9537638f0a8da5, type: 3}
       propertyPath: m_RootOrder
@@ -7987,6 +8153,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 494283407}
     m_Modifications:
+    - target: {fileID: 1358767312763242, guid: 56cc1c6bff89a6e48929a0f0b3172411, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4678819293790290, guid: 56cc1c6bff89a6e48929a0f0b3172411, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -8164,6 +8334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Cube 1 Bright (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -8225,6 +8399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Cube 1 Bright (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -8285,6 +8463,10 @@ PrefabInstance:
     - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_Name
       value: Castle Cube 1 Bright (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362150301787148, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
       objectReference: {fileID: 0}
     - target: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519, type: 3}
       propertyPath: m_RootOrder
@@ -8465,6 +8647,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 415466385}
     m_Modifications:
+    - target: {fileID: 1700748415098318, guid: 3f0acace52765f74b84bdab0b6ee0b09, type: 3}
+      propertyPath: m_TagString
+      value: jumpable
+      objectReference: {fileID: 0}
     - target: {fileID: 4853700368501118, guid: 3f0acace52765f74b84bdab0b6ee0b09, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -8808,6 +8994,215 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5a6d82db99d72147b387eb30637f623, type: 3}
+--- !u!1001 &2045559265095587350
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2045559263818397365, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7131b15f0aa5ee94b84182a9d7a7226f, type: 2}
+    - target: {fileID: 2045559263818397367, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_Name
+      value: soft body cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397367, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_TagString
+      value: object
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.369
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.381
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.588
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263818397374, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263947930832, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263947930844, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559263947930847, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264073566120, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.35025996
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264073566121, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264073566125, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264073566166, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264561933201, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.6497401
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264561933202, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.35025993
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264561933212, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.35025993
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264561933213, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.6497401
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264561933214, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.6497401
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264561933215, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.6497401
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264590813456, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264590813458, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264590813459, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.35025996
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264590813463, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264644267762, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264644267767, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264814432594, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264814432595, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559264814432599, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559265185270472, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559265185270516, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559265185270519, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2045559265569523964, guid: d8fca16cc65a5c8449a3c82363f43258,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.000000029802322
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8fca16cc65a5c8449a3c82363f43258, type: 3}
 --- !u!1001 &2915194925781989156
 PrefabInstance:
   m_ObjectHideFlags: 0
