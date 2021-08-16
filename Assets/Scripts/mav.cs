@@ -39,7 +39,7 @@ public class mav : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Cooooooooooooooooooords.text = transform.position.ToString();
+        //Cooooooooooooooooooords.text = transform.position.ToString();
         if (Input.GetKeyUp("z"))
         {
             coolSwitch = !coolSwitch;
@@ -59,7 +59,7 @@ public class mav : MonoBehaviour
             Vector3 fwd = transform.TransformDirection(Vector3.forward);
             if (!(coolSwitch && Physics.Raycast(transform.position, fwd, 1)))
             {
-                Instantiate(rbb, rbbb.position, rbbb.rotation);
+                Instantiate(rbb, rbbb.position + new Vector3(0.1f,0,-0.3f), rbbb.rotation);
             }
         }
         if (Input.GetKeyUp("2"))
@@ -67,7 +67,7 @@ public class mav : MonoBehaviour
             Vector3 fwd = transform.TransformDirection(Vector3.forward);
             if (!(coolSwitch && Physics.Raycast(transform.position, fwd, 1)))
             {
-                Instantiate(nbb, rbbb.position, rbbb.rotation);
+                Instantiate(nbb, rbbb.position + new Vector3(0.1f,0,-0.3f), rbbb.rotation);
             }
             
         }
@@ -76,7 +76,7 @@ public class mav : MonoBehaviour
             Vector3 fwd = transform.TransformDirection(Vector3.forward);
             if (!(coolSwitch && Physics.Raycast(transform.position, fwd, 1)))
             {
-                Instantiate(sb, rbbb.position, rbbb.rotation);
+                Instantiate(sb, rbbb.position + new Vector3(0.1f,0,-0.3f), rbbb.rotation);
             }
             
         }
@@ -85,7 +85,7 @@ public class mav : MonoBehaviour
             Vector3 fwd = transform.TransformDirection(Vector3.forward);
             if (!(coolSwitch && Physics.Raycast(transform.position, fwd, 1)))
             {
-                Instantiate(fb, rbbb.position, rbbb.rotation);
+                Instantiate(fb, rbbb.position + new Vector3(0.1f,0,-0.3f), rbbb.rotation);
             }
             
         
@@ -95,7 +95,7 @@ public class mav : MonoBehaviour
             Vector3 fwd = transform.TransformDirection(Vector3.forward);
             if (!(coolSwitch && Physics.Raycast(transform.position, fwd, 1)))
             {
-                Instantiate(soft, soft.position, soft.rotation);
+                Instantiate(soft, soft.position + new Vector3(0.1f,0,-0.3f), soft.rotation);
             }
             
         
@@ -200,7 +200,7 @@ public class mav : MonoBehaviour
     
     void OnCollisionEnter(UnityEngine.Collision collisioninfo)
     {
-        if (collisioninfo.gameObject.tag == "jumpable")
+        if (collisioninfo.gameObject.tag == "jumpable" || collisioninfo.gameObject.tag == "object")
         {
             ground = true;
         }
