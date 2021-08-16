@@ -16,7 +16,7 @@ public class mav : MonoBehaviour
     public Transform nbbb;
     public Rigidbody nbb;
     public Rigidbody sb;
-    public Transform fb;
+    public Rigidbody fb;
     private bool snapmav = false;
     public Material MavWered;
     private Material OG;
