@@ -16,7 +16,7 @@ public class mav : MonoBehaviour
     public Transform nbbb;
     public Rigidbody nbb;
     public Rigidbody sb;
-    public Transform fb;
+    public Rigidbody fb;
     private bool snapmav = false;
     public Material MavWered;
     private Material OG;
@@ -26,7 +26,7 @@ public class mav : MonoBehaviour
     private bool coolSwitch = false;
     public Image CoolSwitchInd;
     public Text Cooooooooooooooooooords;
-    public Transform soft;
+    public Rigidbody tb;
 
 
     public bool w, a, s, d, space, item1, item2 = false;
@@ -98,7 +98,17 @@ public class mav : MonoBehaviour
             Vector3 fwd = transform.TransformDirection(Vector3.forward);
             if (!(coolSwitch && Physics.Raycast(transform.position, fwd, 1)))
             {
-                Instantiate(soft, soft.position + new Vector3(0.1f,0,-0.3f), soft.rotation);
+                Instantiate(sb, rbbb.position + new Vector3(0.1f,0,-0.3f), rbbb.rotation);
+            }
+            
+        
+        }
+        if (Input.GetKeyUp("6"))
+        {
+            Vector3 fwd = transform.TransformDirection(Vector3.forward);
+            if (!(coolSwitch && Physics.Raycast(transform.position, fwd, 1)))
+            {
+                Instantiate(tb, rbbb.position + new Vector3(0.1f,0,-0.3f), rbbb.rotation);
             }
             
         
