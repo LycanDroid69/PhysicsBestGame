@@ -29,6 +29,8 @@ public class mav : MonoBehaviour
     public Transform soft;
 
 
+    public bool w, a, s, d, space, item1, item2 = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,6 +63,7 @@ public class mav : MonoBehaviour
             {
                 Instantiate(rbb, rbbb.position + new Vector3(0.1f,0,-0.3f), rbbb.rotation);
             }
+            item1 = true;
         }
         if (Input.GetKeyUp("2"))
         {
@@ -69,7 +72,7 @@ public class mav : MonoBehaviour
             {
                 Instantiate(nbb, rbbb.position + new Vector3(0.1f,0,-0.3f), rbbb.rotation);
             }
-            
+            item2 = true;
         }
         if (Input.GetKeyUp("3"))
         {
@@ -170,18 +173,22 @@ public class mav : MonoBehaviour
             if (Input.GetKey("w"))
             {
                 rb.AddForce(transform.forward * FnB * Time.deltaTime);
+                w = true;
             }
             if (Input.GetKey("a"))
             {
                 rb.AddForce(transform.right * LnR * -1 * Time.deltaTime);
+                a = true;
             }
             if (Input.GetKey("d"))
             {
                 rb.AddForce(transform.right * LnR * Time.deltaTime);
+                d = true;
             }
             if (Input.GetKey("s"))
             {
                 rb.AddForce(transform.forward * FnB * -1 * Time.deltaTime);
+                s = true;
             }
             if (ground == true)
         {
@@ -192,6 +199,7 @@ public class mav : MonoBehaviour
                     rb.AddForce(0,jampfurc,0 * Time.deltaTime);
                     ground = false;
                 }
+                    space = true;
             }
         }
         }

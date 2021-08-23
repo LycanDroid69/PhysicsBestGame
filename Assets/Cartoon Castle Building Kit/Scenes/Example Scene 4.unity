@@ -1538,6 +1538,52 @@ Transform:
   m_Father: {fileID: 305969991}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &423519795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 423519796}
+  - component: {fileID: 423519797}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &423519796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423519795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &423519797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423519795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c27b5cc28badbf40b0487c8e35b0544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goPlayer: {fileID: 1059727774}
+  txtInstructions: {fileID: 555663868}
+  door: {fileID: 2025330157}
 --- !u!1001 &425205315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2483,7 +2529,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555663867}
   m_LocalRotation: {x: -0, y: 0.98711294, z: -0, w: 0.16002566}
-  m_LocalPosition: {x: 5.56, y: 1.08, z: 18.674}
+  m_LocalPosition: {x: 5.715, y: 1.08, z: 18.674}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3243,6 +3289,10 @@ PrefabInstance:
     - target: {fileID: 1505284215269228, guid: eea676c01dd2bd140b860831d85d69d7, type: 3}
       propertyPath: m_Name
       value: Iron Bars 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505284215269228, guid: eea676c01dd2bd140b860831d85d69d7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4545639935603182, guid: eea676c01dd2bd140b860831d85d69d7, type: 3}
       propertyPath: m_RootOrder
@@ -4465,6 +4515,13 @@ MonoBehaviour:
   CoolSwitchInd: {fileID: 0}
   Cooooooooooooooooooords: {fileID: 0}
   soft: {fileID: 0}
+  w: 0
+  a: 0
+  s: 0
+  d: 0
+  space: 0
+  item1: 0
+  item2: 0
 --- !u!54 &1059727776
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8337,6 +8394,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4002329240314076, guid: 889d8fd0e12ab104ab8dab5a03b70519,
     type: 3}
   m_PrefabInstance: {fileID: 2021625953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2025330157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1505284215269228, guid: eea676c01dd2bd140b860831d85d69d7,
+    type: 3}
+  m_PrefabInstance: {fileID: 723556677}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2055379256
 PrefabInstance:
