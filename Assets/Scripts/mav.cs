@@ -26,7 +26,7 @@ public class mav : MonoBehaviour
     private bool coolSwitch = false;
     public Image CoolSwitchInd;
     public Text Cooooooooooooooooooords;
-    public Transform soft;
+    public Rigidbody tb;
 
 
     // Start is called before the first frame update
@@ -95,7 +95,17 @@ public class mav : MonoBehaviour
             Vector3 fwd = transform.TransformDirection(Vector3.forward);
             if (!(coolSwitch && Physics.Raycast(transform.position, fwd, 1)))
             {
-                Instantiate(soft, soft.position + new Vector3(0.1f,0,-0.3f), soft.rotation);
+                Instantiate(sb, rbbb.position + new Vector3(0.1f,0,-0.3f), rbbb.rotation);
+            }
+            
+        
+        }
+        if (Input.GetKeyUp("6"))
+        {
+            Vector3 fwd = transform.TransformDirection(Vector3.forward);
+            if (!(coolSwitch && Physics.Raycast(transform.position, fwd, 1)))
+            {
+                Instantiate(tb, rbbb.position + new Vector3(0.1f,0,-0.3f), rbbb.rotation);
             }
             
         
