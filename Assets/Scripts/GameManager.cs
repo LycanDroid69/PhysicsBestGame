@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
             {
                 if(instPlayer.item1 & instPlayer.item2)
                 {
-                    txtInstructions.text = "Awesome!\nNow I challenge you to get out of this castle with your new found knowledge,\nonce your out of here, feel free to explore!";
+                    txtInstructions.text = "Awesome!\nNow I challenge you to get out of this castle\nwith your new found knowledge,\nonce your out of here, feel free to explore!";
                     if(door != null)
                     {
                         Destroy(door);
@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
                 }
                 else
                 {
-                    txtInstructions.text = "Great!\nNow press 1 and 2 to spawn either a cube or a sphere";
+                    txtInstructions.text = "Great!\nNow press 1 and 2 to spawn either\na cube or a sphere";
                 }
             }
             else
