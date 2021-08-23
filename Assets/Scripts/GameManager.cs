@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
             {
                 if(instPlayer.item1 & instPlayer.item2)
                 {
-                    txtInstructions.text = "Awesome!\nNow I challenge you to get out of this castle\nwith your new found knowledge,\nonce your out of here, feel free to explore!";
+                txtInstructions.text = "Awesome!\nNow you may get out of this castle.\nAlso make sure to click and drag\nto drag objects around.\nOnce your out of here, feel free to explore!";
                     if(door != null)
                     {
                         Destroy(door);
