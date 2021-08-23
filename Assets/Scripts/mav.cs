@@ -208,6 +208,10 @@ public class mav : MonoBehaviour
     
     void OnCollisionEnter(UnityEngine.Collision collisioninfo)
     {
+        if (collisioninfo.gameObject.name == "death zone")
+        {
+            transform.position = new Vector3 (4,1, 19);
+        }
         if (collisioninfo.gameObject.tag == "jumpable" || collisioninfo.gameObject.tag == "object")
         {
             ground = true;
